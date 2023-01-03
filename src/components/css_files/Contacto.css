@@ -1,0 +1,94 @@
+.contacto{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 7em;
+}
+
+.contacto h4{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.75em;
+    font-size: bold;
+}
+
+.contacto p{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.contacto input{
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.mensajeContacto{
+    padding: 3em;
+    line-break: strict;
+    padding-left: 4em;
+    padding-right: 5em;
+    border-radius: 5px;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+}
+
+.contacto button{
+    margin-top: 1.5em;
+    padding: 0.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.contacto button:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+.contacto input::-webkit-inner-spin-button,
+.telefonoContacto{
+    -webkit-appearance: none;
+}
+
+.alertaMensajeEnviado{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 17px;
+    background-color: #b8daba;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    border-radius: 5px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+.alertaMensajeError{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 17px;
+    background-color: #FA8072;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    border-radius: 5px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .alertaMensajeEnviado, .alertaMensajeError{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+}

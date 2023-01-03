@@ -1,0 +1,122 @@
+.carrito{
+    text-align: center;
+    margin-left: 5em;
+    margin-top: 5em;
+    width: 14em;
+    margin-bottom: 2em;
+    border-style: solid;
+    height: 19em;
+    align-items: center;
+    border-radius: 5px;
+    border-color: black;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.carrito p {
+    color: black;
+}
+
+.tituloCarrito{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.75em;
+}
+
+.imgCarrito{
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.cantidadCarrito{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+    float: left;
+    margin-left: 3em;
+    margin-right: 0.5em;
+}
+.cantidadCarrito input{
+    margin-left: 0.3em;
+    width: 75px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.sinProductos{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.pago{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+.total{
+    text-align: center;
+}
+
+.pagarBoton{
+    padding: 0.25em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 18px;
+}
+
+.pagarBoton:hover{
+    background-color:cadetblue;
+    color: white;
+}
+
+.alertaComprado{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 17px;
+    background-color: #b8daba;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    border-radius: 5px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+.alertaLogin{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 17px;
+    background-color: #FA8072;
+    margin-left: 22em;
+    margin-right: 22em;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    border-radius: 5px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .pago{
+        margin-top: 3em;
+        text-align: center;
+        position:relative;
+        left:auto;
+        margin-bottom: 2em;
+    }
+
+    .alertaComprado, .alertaLogin{
+        margin-left: 5em;
+        margin-right: 5em;
+
+    }
+
+}
