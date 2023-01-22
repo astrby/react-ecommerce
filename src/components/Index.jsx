@@ -48,7 +48,7 @@ const Index = () => {
       productos.map((producto,i)=>{
         var cantImagenes=0;
         //Se imprime cada producto con imagen.
-        return <div key={i} className='product'>
+        return <div key={i} className='product' style={{maxWidth: '15rem'}}>
           {
             imagenesList.map((imagen, j)=>{
               var imagenId = imagen.split('?', 1).toString().split('https://firebasestorage.googleapis.com/v0/b/react-ecomerce-62065.appspot.com/o/Imagenes%2F').pop();
