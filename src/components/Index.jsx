@@ -39,7 +39,6 @@ const Index = () => {
     getProductos();
     getImagenes();
   },[])
-  
   return (
     <>
     <h4 className='tituloProductos'>Productos disponibles</h4>
