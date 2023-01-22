@@ -4,7 +4,6 @@ import {getStorage} from 'firebase/storage'
 
 const apiKey = process.env.REACT_APP_APIKEY;
 const authDomain = process.env.REACT_APP_AUTHDOMAIN;
-const projectId = process.env.REACT_APP_PROJECTID;
 const messagingSenderId = process.env.REACT_APP_MESSAGINGSENDERID;
 const appId = process.env.REACT_APP_APPID
 

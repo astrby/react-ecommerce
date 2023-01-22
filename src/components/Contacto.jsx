@@ -22,7 +22,7 @@ const Contacto = () => {
         setAlertaMensajeError(false)
         }, 2000);
     }else{
-      emailjs.sendForm('service_4gyem64', 'template_8bc37ja', e.target, 'AO5ZwI17kAU0TdRKu')
+      emailjs.sendForm(process.env.REACT_APP_EMAILSERVICE, process.env.REACT_APP_EMAILTEMPLATE, e.target, process.env.REACT_APP_EMAILAPIKEY)
       setAlertaMensajeEnviado(true)
       setTimeout(() => {
         setAlertaMensajeEnviado(false)
