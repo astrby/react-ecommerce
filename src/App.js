@@ -15,21 +15,21 @@ function App() {
   return (
     <div className="App">
       <NB/>
-      <div className='body'>
-        <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<Index></Index>}></Route>
-            <Route path='/contacto' element={<Contacto></Contacto>}></Route>
-            <Route path='/producto/:Id' element={<Producto></Producto>}></Route>
-            <Route path='/carrito' element={<Carrito></Carrito>}></Route>
-            <Route path='/login' element={<Login></Login>}></Route>
-            <Route path='/registro' element={<Registro></Registro>}></Route>
-            <Route path='/subirproducto' element={<SubirProducto></SubirProducto>}></Route>
-            <Route path='/compras' element={<Compras></Compras>}></Route>
-          </Routes>
-        </BrowserRouter>
-      </div>
-      <div className='footer'>
+      <div className='container-wrap'>
+        <div className='body'>
+          <BrowserRouter>
+            <Routes>
+              <Route path='/' element={<Index></Index>}></Route>
+              <Route path='/contacto' element={<Contacto></Contacto>}></Route>
+              <Route path='/producto/:Id' element={<Producto></Producto>}></Route>
+              <Route path='/carrito' element={<Carrito></Carrito>}></Route>
+              <Route path='/login' element={<Login></Login>}></Route>
+              <Route path='/registro' element={<Registro></Registro>}></Route>
+              <Route path='/subirproducto' element={<SubirProducto></SubirProducto>}></Route>
+              <Route path='/compras' element={<Compras></Compras>}></Route>
+            </Routes>
+          </BrowserRouter>
+        </div>
         <Footer/>
       </div>
     </div>
